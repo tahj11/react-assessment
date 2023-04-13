@@ -1,0 +1,27 @@
+.card-div {
+    display: flex;
+    justify-content: center;
+}
+
+.card-page {
+    margin-top: 4rem;
+    width: 80%;
+    /* background-color: bisque; */
+}
+
+.bread-crumbs {
+    margin-top: 3rem;
+}
+
+.cards-grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
+    .cards-grid {
+        grid-template-columns: auto;
+    }
+}
