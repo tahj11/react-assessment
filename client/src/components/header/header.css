@@ -90,6 +90,34 @@
     }
 
     .card-header {
-        /* justify-content: center; */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .center {
+        display: none;
+    }
+
+    .name-card {
+        font-size: 14px;
+        width: 100px;
+    }
+
+    .all-cards {
+        font-size: 14px;
+        width: 112px;
+    }
+
+    .decks-card {
+        font-size: 14px;
+        width: 100px;
+    }
+
+    .card-header {
+        /* display: flex;
+        justify-content: center; */
     }
 }

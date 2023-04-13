@@ -48,3 +48,13 @@
         width: 382px;
     }
 }
+
+@media (max-width: 1000px) {
+    .card_layout {
+        /* width: 216px; */
+    }
+
+    .card_layout-top {
+        width: 216px;
+    }
+}

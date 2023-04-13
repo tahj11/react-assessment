@@ -69,3 +69,23 @@ input[type=text], select {
         font-size: 14px;
     }
 }
+
+@media (max-width: 1000px) {
+    input[type=text], select {
+        width: 224px;
+    }
+
+    .AtoZCard {
+        width: 63px;
+        font-size: 14px;
+    }
+
+    .youngCard {
+        font-size: 14px;
+
+    }
+
+    .oldCard {
+        font-size: 14px;
+    }
+}
