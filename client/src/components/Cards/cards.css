@@ -1,9 +1,12 @@
 .card_layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 282px;
     width: 216px;
     background-color:#fff;
     border-radius: 8px;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card_layout-top {
@@ -22,21 +25,31 @@
 }
 
 .card_layout-bottom {
+    display: flex;
+    flex-direction: column;
    width: 90%;
+   align-items: center;
+   /* background-color: lightblue; */
 }
 
 .card_layout-heading {
     margin-top: 1rem;
     display: flex;
     font-size: 14px;
-    justify-content: space-between;
     color: #3B3B3B;
+    gap: 5rem;
 }
 
 .card_line {
     width: 90%;
     text-align: center;
     /* border: 2px; */
+}
+
+.cardtype_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 @media (max-width: 600px) {

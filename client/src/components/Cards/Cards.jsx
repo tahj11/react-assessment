@@ -14,7 +14,11 @@ function Cards() {
           <div className="card_layout-right">Species</div>
         </div>
         <hr className="card_line" />
-        <CardType />
+        <div className="cardtype_grid">
+          <CardType />
+          <CardType />
+          <CardType />
+        </div>
       </div>
     </div>
   );
