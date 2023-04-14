@@ -49,7 +49,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and (min-width: 600px) {
     .card_layout {
         /* width: 216px; */
     }

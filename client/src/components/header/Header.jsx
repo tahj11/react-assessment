@@ -1,13 +1,18 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="heading">
       <div className="card-header">
         <div className="left">
-          <div className="all-cards">All Cards</div>
-          <div className="decks-card">Decks</div>
+          <div className="all-cards">
+            <Link to="/">All Cards</Link>
+          </div>
+          <div className="decks-card">
+            <Link to="/deck-page">Decks</Link>
+          </div>
         </div>
         <div className="center">
           <div className="header-title">

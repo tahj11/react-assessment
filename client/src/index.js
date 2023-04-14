@@ -10,6 +10,7 @@ import {
   Link,
 } from "react-router-dom";
 import CardPage from "./pages/CardPage/CardPage";
+import DeckPage from "./pages/DeckPage/DeckPage";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,14 @@ const router = createBrowserRouter([
     element: (
       <div>
         <CardPage />
+      </div>
+    ),
+  },
+  {
+    path: "/deck-page",
+    element: (
+      <div>
+        <DeckPage />
       </div>
     ),
   },

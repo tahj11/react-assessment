@@ -51,6 +51,14 @@ input[type=text], select {
 }
 
 @media (max-width: 600px) {
+    .searchRow {
+        display: flex;
+        width: 380px;
+        gap: 20px;
+        justify-content: flex-start;
+        /* background-color: red; */
+    }
+
     input[type=text], select {
         width: 128px;
     }
@@ -70,7 +78,7 @@ input[type=text], select {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and (min-width: 600px) {
     input[type=text], select {
         width: 224px;
     }

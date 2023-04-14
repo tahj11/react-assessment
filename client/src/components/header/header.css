@@ -70,6 +70,10 @@
 }
 
 @media (max-width: 600px) {
+    .heading {
+        /* background-color: red; */
+        width: 380px;
+    }
     .center {
         display: none;
     }
@@ -90,13 +94,18 @@
     }
 
     .card-header {
-        display: flex;
-        justify-content: center;
-        width: 100%;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* width: 100%; */
+        /* background-color: red; */
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and (min-width: 600px) {
+    .heading {
+        /* width: 60%; */
+    }
+
     .center {
         display: none;
     }
