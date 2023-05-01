@@ -3,6 +3,11 @@
     justify-content: center;
 }
 
+.card-page-footer {
+    display: flex;
+    flex-direction: column;
+}
+
 .card-page {
     margin-top: 4rem;
     width: 80%;
@@ -39,6 +44,14 @@
     .bread-crumbs { 
         margin-top: 1rem;
     }
+}
+
+.footer {
+    display: flex;
+    margin-left: 9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: linear-gradient(180deg, rgba(237, 237, 237, 0) 0%, #EDEDED 29.75%);
 }
 
 @media (max-width: 1000px) and (min-width: 600px){

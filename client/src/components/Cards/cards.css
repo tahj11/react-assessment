@@ -7,6 +7,11 @@
     background-color:#fff;
     border-radius: 8px;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.card_layout-left {
+    font-size: 14px;
 }
 
 .card_layout-top {
@@ -14,6 +19,15 @@
     height: 98px;
     background-color: #969696;
     border-radius: 8px 8px 0 0;
+}
+
+.icon_top {
+    position: absolute;
+    top: 250px;
+    left: 164x;
+    background-color: #fff;
+    height: 32px;
+    width: 36px;
 }
 
 .card_layout-name {
@@ -43,7 +57,7 @@
 .card_line {
     width: 90%;
     text-align: center;
-    /* border: 2px; */
+    border: 2px solid #D4D4D4;
 }
 
 .cardtype_grid {
@@ -59,6 +73,10 @@
 
     .card_layout-top {
         width: 382px;
+    }
+
+    .card_layout-heading {
+        gap: 12rem;
     }
 }
 

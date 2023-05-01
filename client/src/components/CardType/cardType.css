@@ -1,8 +1,15 @@
+.card_type-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .card_type {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 10rem;
+    /* justify-content: space-between; */
+    align-items: space-between;
+    /* gap: 10rem; */
     height: 32px;
     width: 184px;
     background-color: #EDEDED;
@@ -13,11 +20,13 @@
 .card_type-content {
     display: flex; 
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
     padding: 0 10px;
 }
 
 .card_type-left {
+    display: flex;
+    gap: 5px;
     text-transform: uppercase;
     color: #757575;
     font-size: 10px;
@@ -28,4 +37,14 @@
     color: #757575;
     font-size: 14px;
     font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .card_type {
+        width: 328px;
+    }
+
+    .card_type-content {
+        gap: 12rem;
+    }
 }
